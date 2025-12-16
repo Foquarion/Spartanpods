@@ -2,9 +2,9 @@
 Use Version 2 as the production model
 
 # Version Description:
-Version 1 is the original wave text version
-Version 2 is the SQUARE PCB version (USE THIS ONE)
-Version 3 is an incomplete start for a Helmet ONLY version. I have not completed it (no circuit) but the PCB is there for you to use
+  - Version 1 is the original wave text version
+  - Version 2 is the SQUARE PCB version (USE THIS ONE)
+  - Version 3 is an incomplete start for a Helmet ONLY version. I have not completed it (no circuit) but the PCB is there for you to use
 
 # To Do For You (Max):
 Confirm SWITCH positioning
