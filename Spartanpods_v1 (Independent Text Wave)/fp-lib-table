@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Spartanpods_WaveTextFootprints")(type "KiCad")(uri "${KIPRJMOD}/Spartanpods_WaveTextFootprints.pretty")(options "")(descr ""))
+)

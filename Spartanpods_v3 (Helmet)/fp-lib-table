@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Spartanpods_HelmetSymbolLibrary")(type "KiCad")(uri "${KIPRJMOD}/Spartanpods_HelmetSymbolLibrary.pretty")(options "")(descr ""))
+)
