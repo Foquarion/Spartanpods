@@ -95,7 +95,7 @@
 	(net 15 "unconnected-(SW1-Pad7)")
 	(net 16 "unconnected-(SW1-Pad5)")
 	(net 17 "unconnected-(SW1-Pad2)")
-	(footprint "Spartanpods:Combined"
+	(footprint "Spartanpods_FootprintLibrary:Combined"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "97ba2740-f807-4375-930e-11cb4bc8d80c")
@@ -1341,7 +1341,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "Spartanpods_FootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "0377420f-801b-4b97-ad82-ccfa9be56964")
 		(at 155.956 56.3665 90)
@@ -1545,7 +1545,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "Spartanpods_FootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "09aadd02-e0aa-457f-b047-209ffb5ae9d5")
 		(at 139.9032 86.614 180)
@@ -1749,7 +1749,7 @@
 			)
 		)
 	)
-	(footprint "Fiducial:Fiducial_0.75mm_Mask2.25mm"
+	(footprint "Spartanpods_FootprintLibrary:Fiducial_0.75mm_Mask2.25mm"
 		(layer "B.Cu")
 		(uuid "0ad500d4-13fe-4151-9fb3-a48f98c22e5c")
 		(at 197.953609 34.349936)
@@ -1854,7 +1854,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
+	(footprint "Spartanpods_FootprintLibrary:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "B.Cu")
 		(uuid "17b3e992-3332-490d-861e-33253363ea96")
 		(at 174.852 110.0836)
@@ -2162,7 +2162,7 @@
 			)
 		)
 	)
-	(footprint "Spartanpods:Untitled"
+	(footprint "Spartanpods_FootprintLibrary:Untitled"
 		(layer "B.Cu")
 		(uuid "1bc42de2-6a66-4e01-a6c0-ca985f18ca83")
 		(at 169.7736 85.09 180)
@@ -6602,7 +6602,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "!MyFootprints:DP3T - JS203011SCQN"
+	(footprint "Spartanpods_FootprintLibrary:DP3T - JS203011SCQN"
 		(layer "B.Cu")
 		(uuid "248905d8-9fae-4fe0-adea-d406ce161279")
 		(at 142.9644 127.2923 -90)
@@ -8010,7 +8010,7 @@
 			)
 		)
 	)
-	(footprint "Fiducial:Fiducial_0.75mm_Mask2.25mm"
+	(footprint "Spartanpods_FootprintLibrary:Fiducial_0.75mm_Mask2.25mm"
 		(layer "B.Cu")
 		(uuid "2d52cca0-5429-4427-b28b-a15c6ecd35a5")
 		(at 100.953609 136.349936)
@@ -8115,7 +8115,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "!MyFootprints:PhotoTrans_PT12-21C_TR8 (Flipped)"
+	(footprint "Spartanpods_FootprintLibrary:PhotoTrans_PT12-21C_TR8 (Flipped)"
 		(layer "B.Cu")
 		(uuid "2e22ff5b-fd6a-4b89-8fe2-1dfba02660d9")
 		(at 197.4088 87.2668 90)
@@ -8354,7 +8354,7 @@
 			)
 		)
 	)
-	(footprint "Fiducial:Fiducial_0.75mm_Mask2.25mm"
+	(footprint "Spartanpods_FootprintLibrary:Fiducial_0.75mm_Mask2.25mm"
 		(layer "B.Cu")
 		(uuid "3cbc3e70-b469-41c5-9a30-45bd8bd21ec5")
 		(at 197.953609 136.349936)
@@ -8459,7 +8459,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "Spartanpods_FootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "49411e20-7be4-4dad-9396-b6a60a8e5eee")
 		(at 174.5996 77.8764)
@@ -8663,7 +8663,7 @@
 			)
 		)
 	)
-	(footprint "Spartanpods:MiniLogo"
+	(footprint "Spartanpods_FootprintLibrary:MiniLogo"
 		(layer "B.Cu")
 		(uuid "4dcdd494-5fa0-45ba-93b1-3ae16a4b7658")
 		(at 128.4732 63.754 180)
@@ -9384,7 +9384,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "Spartanpods_FootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "5e20da5e-e743-47ab-a3ed-c8ccfa70b120")
 		(at 170.5864 71.8312)
@@ -9588,7 +9588,7 @@
 			)
 		)
 	)
-	(footprint "!MyFootprints:CR2032-Holder"
+	(footprint "Spartanpods_FootprintLibrary:CR2032-Holder"
 		(layer "B.Cu")
 		(uuid "7513a345-cea5-4860-9ff7-36e290787dcb")
 		(at 130.0988 106.6292 180)
@@ -10301,7 +10301,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "Spartanpods_FootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "7f2aa1fe-6b53-4234-9b2a-e97eb8de06fd")
 		(at 149.0472 54.61 90)
@@ -10505,7 +10505,7 @@
 			)
 		)
 	)
-	(footprint "!MyFootprints:LED - MyPLCC2 (RoundMask_LED Side)"
+	(footprint "Spartanpods_FootprintLibrary:LED - MyPLCC2 (RoundMask_LED Side)"
 		(layer "B.Cu")
 		(uuid "84e537d8-d6b3-496a-a273-58d65313036d")
 		(at 172.466 59.1312 -145)
@@ -10834,7 +10834,7 @@
 			)
 		)
 	)
-	(footprint "!MyFootprints:LED - MyPLCC2 (RoundMask_LED Side)"
+	(footprint "Spartanpods_FootprintLibrary:LED - MyPLCC2 (RoundMask_LED Side)"
 		(layer "B.Cu")
 		(uuid "8a5ccfd6-541d-4c6f-bf25-35d457dcf883")
 		(at 178.8252 72.0852 180)
@@ -11163,7 +11163,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23"
+	(footprint "Spartanpods_FootprintLibrary:SOT-23"
 		(layer "B.Cu")
 		(uuid "8df4930c-af2c-4b58-8b2e-1c5a80b10175")
 		(at 194.2744 107.5713 180)
@@ -11463,7 +11463,7 @@
 			)
 		)
 	)
-	(footprint "!MyFootprints:LED - MyPLCC2 (RoundMask_LED Side)"
+	(footprint "Spartanpods_FootprintLibrary:LED - MyPLCC2 (RoundMask_LED Side)"
 		(layer "B.Cu")
 		(uuid "8e0c88d2-0f3a-4dae-9bd6-9c5a8dd3ca00")
 		(at 162.578099 49.432204 -125)
@@ -11792,7 +11792,7 @@
 			)
 		)
 	)
-	(footprint "!MyFootprints:LED - MyPLCC2 (RoundMask_LED Side)"
+	(footprint "Spartanpods_FootprintLibrary:LED - MyPLCC2 (RoundMask_LED Side)"
 		(layer "B.Cu")
 		(uuid "982f9a14-278a-4c38-84eb-7d3d02439960")
 		(at 149.9616 46.168 -90)
@@ -12121,7 +12121,7 @@
 			)
 		)
 	)
-	(footprint "!MyFootprints:LED - MyPLCC2 (RoundMask_LED Side)"
+	(footprint "Spartanpods_FootprintLibrary:LED - MyPLCC2 (RoundMask_LED Side)"
 		(layer "B.Cu")
 		(uuid "9b2d31d3-288f-4fa1-9474-1c698a0a46b0")
 		(at 130.2512 86.4108)
@@ -12450,7 +12450,7 @@
 			)
 		)
 	)
-	(footprint "Fiducial:Fiducial_0.75mm_Mask2.25mm"
+	(footprint "Spartanpods_FootprintLibrary:Fiducial_0.75mm_Mask2.25mm"
 		(layer "B.Cu")
 		(uuid "bc45400c-379a-4b1d-b492-115cb6256cc0")
 		(at 100.953609 34.349936)
@@ -12555,7 +12555,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "!MyFootprints:JD3_Diode"
+	(footprint "Spartanpods_FootprintLibrary:JD3_Diode"
 		(layer "B.Cu")
 		(uuid "d1468640-e40b-4456-ac72-64c44df188a0")
 		(at 108.2548 128.1684 180)
@@ -12710,7 +12710,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "Spartanpods_FootprintLibrary:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "e50c3b4a-1337-4870-8cbf-a541fb657211")
 		(at 162.7124 108.8644 180)
@@ -13126,7 +13126,7 @@
 		(uuid "5554e8e7-5090-4e08-a446-a2201c7b2c3b")
 		(effects
 			(font
-				(size 0.64 0.64)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -13138,19 +13138,19 @@
 		(uuid "6331e61f-4f58-4a4c-bafb-f1c5710d60e3")
 		(effects
 			(font
-				(size 0.64 0.64)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 			(justify mirror)
 		)
 	)
 	(gr_text "Phototransistor"
-		(at 195.58 85.7504 0)
+		(at 194.7164 85.7504 0)
 		(layer "B.SilkS")
 		(uuid "97d2dbfb-091c-4391-a135-1dc272831ffb")
 		(effects
 			(font
-				(size 0.64 0.64)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 			(justify mirror)

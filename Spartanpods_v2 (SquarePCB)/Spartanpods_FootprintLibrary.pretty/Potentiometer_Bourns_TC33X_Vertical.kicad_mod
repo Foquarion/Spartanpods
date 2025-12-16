@@ -1,0 +1,291 @@
+(footprint "Potentiometer_Bourns_TC33X_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
+	(tags "Potentiometer Bourns TC33X Vertical")
+	(property "Reference" "REF**"
+		(at 0 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "1d88788e-d2b3-445f-92e5-a03fcd3f9cd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "50kΩ"
+		(at 0 2.5 180)
+		(layer "F.Fab")
+		(uuid "f5e5b91a-7727-4453-9136-d207889b728b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f41dca36-204e-47f2-b59b-e0a3501243a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Potentiometer, US symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17d2ed6d-9116-4c85-9de9-26d4ef17e03e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -1.8)
+		(end -2.6 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afcbb704-75f9-4b4b-b0f0-b2647113548b")
+	)
+	(fp_line
+		(start -2.1 -0.2)
+		(end -2.1 0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57caf09e-5061-44a1-9965-d5e46bb5e133")
+	)
+	(fp_line
+		(start -1.9 -1.8)
+		(end -2.6 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e167f590-134c-470b-8bc5-95997dc4c6de")
+	)
+	(fp_line
+		(start -1 -1.6)
+		(end 1.9 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e9b5e2a-01a2-41ee-a55d-0b1b06d647af")
+	)
+	(fp_line
+		(start -1 1.6)
+		(end 1.9 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "372a275e-cc6b-4806-8081-94dcfb258a4d")
+	)
+	(fp_line
+		(start 1.9 -1.6)
+		(end 1.9 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12e5a014-84f7-4e88-aac6-807113b94382")
+	)
+	(fp_line
+		(start 1.9 1.6)
+		(end 1.9 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d827958-1bbc-4e4b-bc80-877266bac322")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.8 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e623e763-ff03-4e4c-9271-dd5afc7b149e")
+	)
+	(fp_line
+		(start -2.65 -1.85)
+		(end 2.45 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1edecd46-ed30-4c40-9c7b-fcfa805dc4c2")
+	)
+	(fp_line
+		(start -2.65 1.85)
+		(end -2.65 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10de6ada-0dcc-4e5d-8291-d759565e88e2")
+	)
+	(fp_line
+		(start 2.45 -1.85)
+		(end 2.45 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a32d752-4ea5-49a1-a6d1-8fa8a5cc355f")
+	)
+	(fp_line
+		(start 2.45 1.85)
+		(end -2.65 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc724e45-b5e0-4806-b393-d23892016e30")
+	)
+	(fp_line
+		(start -2 -0.75)
+		(end -2 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e1735a2-7e76-4322-acdc-687fa6c6219b")
+	)
+	(fp_line
+		(start -2 1.5)
+		(end 1.8 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72045ebf-4b3e-4238-8a95-946b2abec09d")
+	)
+	(fp_line
+		(start -1.25 -1.5)
+		(end -2 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04d2ac9e-c2a5-4406-8a58-bd18dfd32a1c")
+	)
+	(fp_line
+		(start 1.8 -1.5)
+		(end -1.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9aa01a54-c43e-40f3-9e2b-d888b5149622")
+	)
+	(fp_line
+		(start 1.8 1.5)
+		(end 1.8 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66f00b12-b822-452d-8eea-c7a6e073a59e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3f253486-2ecb-4fb9-a374-61f6f5c087ae")
+	)
+	(fp_text user "Wiper may be\nanywhere within\ncircle shown"
+		(at -0.15 -0.8 180)
+		(layer "Cmts.User")
+		(uuid "f89179ab-1558-4dd1-ba06-4ef0c82be8e5")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.02)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "4c0b4990-8fc9-41a3-8e6b-7dace8859e8c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8 -1)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ea3cc6f-f32e-468d-b568-a57633c8c49e")
+	)
+	(pad "2" smd rect
+		(at 1.45 0)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c91e17b7-49f2-46b1-8aaa-753a3b946215")
+	)
+	(pad "3" smd rect
+		(at -1.8 1)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab489ae7-02d0-45a0-a446-92e11efae17a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
