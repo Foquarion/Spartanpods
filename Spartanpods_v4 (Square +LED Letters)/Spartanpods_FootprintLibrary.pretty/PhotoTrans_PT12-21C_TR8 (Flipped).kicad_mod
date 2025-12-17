@@ -1,0 +1,227 @@
+(footprint "PhotoTrans_PT12-21C_TR8 (Flipped)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.0208 -0.3556 -90)
+		(layer "F.SilkS")
+		(uuid "1f67a1da-a277-4e90-9f74-39df03452e11")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Q_Photo_NPN"
+		(at 5.40507 1.50373 180)
+		(layer "F.Fab")
+		(uuid "340dba06-3c59-42c5-8b7a-dd671c1d2bfd")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf1c0201-673e-469d-be16-7b6f3410f940")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "NPN phototransistor, collector/emitter"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74eb7fd6-0144-4d30-abe7-9f86123fc74c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.35 0.95)
+		(end -3.35 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3aeeffea-5379-42f4-9a7c-a0b3d822c3a0")
+	)
+	(fp_line
+		(start -1.98 -0.7)
+		(end -0.42 -0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eaa79f83-5a6e-496d-b394-ec1a6e4c18e0")
+	)
+	(fp_line
+		(start 0.95 -1.95)
+		(end 0.95 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91eae0e0-b793-42ed-8bd4-ec93f5189a99")
+	)
+	(fp_line
+		(start 0.95 0.95)
+		(end -3.35 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67d7b89a-bc1f-4b8c-aaf5-d70f445a2d3a")
+	)
+	(fp_arc
+		(start -2.145 -1.03)
+		(mid -1.2 -1.69786)
+		(end -0.255 -1.03)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "531f9080-d95d-453d-8f28-d5c5bcd22218")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1625 2.274045) (xy 0.8375 2.274045) (xy 0.3375 1.349045)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "edefbb63-91e5-4087-9b96-cca534ff3d8b")
+	)
+	(fp_line
+		(start -3.35 -1.95)
+		(end 0.95 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52df3265-840c-46b6-af16-81fa4f903455")
+	)
+	(fp_line
+		(start -2.7 -0.7)
+		(end -2.2 -0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d07b6f1-269a-4b75-9169-57a502e6775e")
+	)
+	(fp_line
+		(start -2.7 0.4)
+		(end -2.7 -0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13c0fe6b-3ad4-4fb1-a332-1b46a258ec29")
+	)
+	(fp_line
+		(start -2.2 -0.7)
+		(end -0.2 -0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b6f7c4c-6546-4fb1-ba7a-2a266f6aeccf")
+	)
+	(fp_line
+		(start -0.2 -0.7)
+		(end 0.3 -0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "061711e5-dbf0-4400-9d5e-59a959737b83")
+	)
+	(fp_line
+		(start 0.3 -0.7)
+		(end 0.3 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9704298c-557d-4fb5-a5e0-1b9e22b86a1a")
+	)
+	(fp_line
+		(start 0.3 0.4)
+		(end -2.7 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4156062-c997-4ad4-84c3-3ef058439e66")
+	)
+	(fp_arc
+		(start -2.2 -0.7)
+		(mid -1.2 -1.7)
+		(end -0.2 -0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbed4bf8-5841-412a-b9cb-b0563f72352c")
+	)
+	(pad "C" smd rect
+		(at 0.3 0)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "123c2c61-ecc3-4aeb-ab77-adfa00eb7094")
+	)
+	(pad "E" smd rect
+		(at -2.7 0)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "31c66f15-080f-4ade-b199-634b9c1fe543")
+	)
+	(pad "P1" smd rect
+		(at -1.2 0.4)
+		(size 0.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "66a0c504-635f-4595-987c-89113c166f17")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Dallas.Owens/Documents/KiCad Directory/KiCad Libraries/!MyFootprints/PT12-21C_TR8/PT12-21C_TR8.step"
+		(offset
+			(xyz -1.2 -0.17 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

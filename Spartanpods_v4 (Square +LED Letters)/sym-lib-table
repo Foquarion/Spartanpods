@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Spartanpods_SymbolLibrary")(type "KiCad")(uri "${KIPRJMOD}/Spartanpods_SymbolLibrary.kicad_sym")(options "")(descr ""))
+)

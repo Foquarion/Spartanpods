@@ -1,0 +1,312 @@
+(footprint "LED - MyPLCC2 (RoundMask_LED Side)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED PLCC-2 SMD package, orientation marker at anode, https://dammedia.osram.info/media/resource/hires/osram-dam-5824137/SFH%204257_EN.pdf")
+	(tags "LED PLCC-2 SMD TOPLED")
+	(property "Reference" "REF**"
+		(at 0 2.6 0)
+		(layer "F.SilkS")
+		(uuid "2d30102c-c97a-45e8-9c02-6441ac5f86be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GRN"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "67f50f1f-6ddf-4298-bc5e-ea67cab844e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20069339-5027-447d-ae95-ad351a8eeacc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "XZDGK45WT-9"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dccc9cf-44ff-45d2-87e3-4f9c38edc7f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b675c0ac-0b52-4f3a-9304-c23a9262bf9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.6 -1.6)
+		(end -3.6 1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cce9dbf4-d634-458c-8311-39fb2ad1943c")
+	)
+	(fp_line
+		(start -3.6 1.3)
+		(end -3.3 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3978f18-085d-49d2-bf5c-6d7694d5a9f6")
+	)
+	(fp_line
+		(start -3 -2.3)
+		(end -2.2 -2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9fa7acd2-db67-4502-8762-0082be145d70")
+	)
+	(fp_line
+		(start 2.2 -2.3)
+		(end 3 -2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8a31fa27-db23-4aec-bb3e-0dfb48185759")
+	)
+	(fp_line
+		(start 2.6 -1.9)
+		(end 2.6 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa890230-a76c-4c72-9ad0-52778a0acaf0")
+	)
+	(fp_line
+		(start 3.3 -1.6)
+		(end -3.6 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "806dab74-3f0d-453f-9a54-96f3ed2056cd")
+	)
+	(fp_line
+		(start 3.3 1.6)
+		(end -3.3 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13c732cd-7e43-48da-a0a4-6c8b9ceb9e72")
+	)
+	(fp_line
+		(start -3.8 -1.85)
+		(end 3.8 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3105068b-325e-487b-be47-717f30a08da3")
+	)
+	(fp_line
+		(start -3.8 1.85)
+		(end -3.8 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee7b34b0-0b3a-483d-b625-ab707d882daf")
+	)
+	(fp_line
+		(start 3.8 -1.85)
+		(end 3.8 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2986c44-26ad-413c-a9da-769a97b848c6")
+	)
+	(fp_line
+		(start 3.8 1.85)
+		(end -3.8 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "803115c3-c703-4c53-ba11-a4ffb1f12574")
+	)
+	(fp_line
+		(start -1.7 -1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21554bfe-99ec-4c0d-af8c-bcae1f3d47bc")
+	)
+	(fp_line
+		(start -1.7 1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36c6057c-2745-4dd0-a772-c69ba069d839")
+	)
+	(fp_line
+		(start -0.75 1.45)
+		(end -1.65 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "614ec8e1-b330-4699-ba8b-876767a03e12")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60aff9c8-d350-426b-ad2f-08eb16f3d48f")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3cf1b5e-b8c8-430e-b7ea-52173f4aaef4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "879fad44-f7e6-4397-91ef-3fb795a2e8dc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4438c7c0-6a81-439b-9af1-d41240529b32")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" smd oval
+		(at 0 0)
+		(size 2.7 2.7)
+		(layers "F.Mask")
+		(uuid "fd98cf1f-5912-4db0-99dd-e104cda4776a")
+	)
+	(pad "1" smd rect
+		(at -2.6 0)
+		(size 1.5 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f34961ca-a4c1-4c27-8dd3-834e29122146")
+	)
+	(pad "2" smd rect
+		(at 2.6 0)
+		(size 1.5 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bddc45d8-e843-4e0c-a36f-1fd8457c0629")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "F.SilkS" "B.SilkS" "F.Paste" "B.Paste")
+		(uuid "35afe79c-c771-4c25-8167-130cb227b6b0")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.3 171.5216) (xy 1.3 171.5216) (xy 1.3 174.1216) (xy -1.3 174.1216)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC-2_3.4x3.0mm_AK.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
