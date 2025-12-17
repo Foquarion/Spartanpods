@@ -11,180 +11,7 @@
 		(company "Spartanpods")
 	)
 	(lib_symbols
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Spartanpods_SymbolLibrary:+3.3V"
+		(symbol "Spartanpods_v4_SymbolLibrary:+3.3V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -309,7 +136,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:BC847"
+		(symbol "Spartanpods_v4_SymbolLibrary:BC847"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -514,7 +341,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:Battery_Cell"
+		(symbol "Spartanpods_v4_SymbolLibrary:Battery_Cell"
 			(pin_numbers
 				(hide yes)
 			)
@@ -695,7 +522,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:Fiducial"
+		(symbol "Spartanpods_v4_SymbolLibrary:Fiducial"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -775,7 +602,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:GNDREF"
+		(symbol "Spartanpods_v4_SymbolLibrary:GNDREF"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -912,7 +739,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:JD3_Diode"
+		(symbol "Spartanpods_v4_SymbolLibrary:JD3_Diode"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1091,7 +918,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:LED"
+		(symbol "Spartanpods_v4_SymbolLibrary:LED"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1274,7 +1101,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:Logo_Open_Hardware_Small"
+		(symbol "Spartanpods_v4_SymbolLibrary:Logo_Open_Hardware_Small"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board no)
@@ -1410,7 +1237,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:PWR_FLAG"
+		(symbol "Spartanpods_v4_SymbolLibrary:PWR_FLAG"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1511,7 +1338,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:Q_Photo_NPN"
+		(symbol "Spartanpods_v4_SymbolLibrary:Q_Photo_NPN"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1724,7 +1551,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:R_Potentiometer_US"
+		(symbol "Spartanpods_v4_SymbolLibrary:R_Potentiometer_US"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1937,7 +1764,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:R_US"
+		(symbol "Spartanpods_v4_SymbolLibrary:R_US"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2110,7 +1937,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Spartanpods_SymbolLibrary:SW_DP3T"
+		(symbol "Spartanpods_v4_SymbolLibrary:SW_DP3T"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2584,12 +2411,6 @@
 		(uuid "d193ca48-4587-4996-bdac-ce100457b96d")
 	)
 	(junction
-		(at 163.83 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd235450-98b2-443e-bde6-366e3de165dd")
-	)
-	(junction
 		(at 124.46 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2606,12 +2427,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec7e2bc3-1640-4c10-b6c6-badf3a0cf9dd")
-	)
-	(junction
-		(at 163.83 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f56474d3-a731-4dd0-b7c0-e9e7454f2b8a")
 	)
 	(junction
 		(at 179.07 66.04)
@@ -2705,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 86.36) (xy 163.83 86.36)
+			(xy 156.21 86.36) (xy 179.07 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2772,6 +2587,16 @@
 			(type default)
 		)
 		(uuid "316435e8-b52a-468e-9e81-7c302928fa50")
+	)
+	(wire
+		(pts
+			(xy 223.52 66.04) (xy 227.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372e2933-768c-44b3-94c2-7cce3e2bbceb")
 	)
 	(wire
 		(pts
@@ -2855,7 +2680,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 66.04) (xy 227.33 66.04)
+			(xy 209.55 66.04) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3245,16 +3070,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 86.36) (xy 179.07 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c210ce44-f779-4066-afa1-0986a4a4113e")
-	)
-	(wire
-		(pts
 			(xy 209.55 83.82) (xy 209.55 86.36)
 		)
 		(stroke
@@ -3374,7 +3189,7 @@
 		(uuid "fe685b24-6546-423a-9ba7-84689bda041b")
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:Fiducial")
+		(lib_id "Spartanpods_v4_SymbolLibrary:Fiducial")
 		(at 267.97 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3447,7 +3262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:PWR_FLAG")
+		(lib_id "Spartanpods_v4_SymbolLibrary:PWR_FLAG")
 		(at 76.2 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3514,7 +3329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:LED")
+		(lib_id "Spartanpods_v4_SymbolLibrary:LED")
 		(at 267.97 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3601,7 +3416,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:LED")
+		(lib_id "Spartanpods_v4_SymbolLibrary:LED")
 		(at 199.39 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3689,7 +3504,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 199.39 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3768,7 +3583,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 156.21 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3847,7 +3662,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:+3.3V")
+		(lib_id "Spartanpods_v4_SymbolLibrary:+3.3V")
 		(at 76.2 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3913,7 +3728,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 257.81 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3991,7 +3806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:LED")
+		(lib_id "Spartanpods_v4_SymbolLibrary:LED")
 		(at 189.23 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4079,7 +3894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:Logo_Open_Hardware_Small")
+		(lib_id "Spartanpods_v4_SymbolLibrary:Logo_Open_Hardware_Small")
 		(at 226.06 157.48 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4106,7 +3921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Spartanpods:Combined"
+		(property "Footprint" "Spartanpods:Combined_LED Text"
 			(at 226.06 157.48 0)
 			(effects
 				(font
@@ -4152,7 +3967,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:SW_DP3T")
+		(lib_id "Spartanpods_v4_SymbolLibrary:SW_DP3T")
 		(at 92.71 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4177,7 +3992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "!MyFootprints:DP3T - JS203011SCQN"
 			(at 76.835 117.475 0)
 			(effects
 				(font
@@ -4247,7 +4062,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:LED")
+		(lib_id "Spartanpods_v4_SymbolLibrary:LED")
 		(at 227.33 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4335,8 +4150,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 163.83 90.17 0)
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
+		(at 219.71 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4345,25 +4160,23 @@
 		(fields_autoplaced yes)
 		(uuid "55da088d-0ef8-499d-b22e-c227ab6a282e")
 		(property "Reference" "R12"
-			(at 166.37 88.8999 0)
+			(at 219.71 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "0 Ohm jumper"
-			(at 166.37 91.4399 0)
+			(at 219.71 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 164.846 90.424 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 219.964 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 90.17 0)
+			(at 219.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4194,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 163.83 90.17 0)
+			(at 219.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 179.07 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4484,7 +4297,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:LED")
+		(lib_id "Spartanpods_v4_SymbolLibrary:LED")
 		(at 179.07 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4572,7 +4385,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:LED")
+		(lib_id "Spartanpods_v4_SymbolLibrary:LED")
 		(at 156.21 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4660,7 +4473,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_Potentiometer_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_Potentiometer_US")
 		(at 116.84 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4741,7 +4554,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:Fiducial")
+		(lib_id "Spartanpods_v4_SymbolLibrary:Fiducial")
 		(at 267.97 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4814,7 +4627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:Fiducial")
+		(lib_id "Spartanpods_v4_SymbolLibrary:Fiducial")
 		(at 267.97 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4887,7 +4700,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:LED")
+		(lib_id "Spartanpods_v4_SymbolLibrary:LED")
 		(at 237.49 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4975,7 +4788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:GNDREF")
+		(lib_id "Spartanpods_v4_SymbolLibrary:GNDREF")
 		(at 76.2 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5041,7 +4854,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 267.97 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5119,7 +4932,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:LED")
+		(lib_id "Spartanpods_v4_SymbolLibrary:LED")
 		(at 257.81 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5206,7 +5019,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:BC847")
+		(lib_id "Spartanpods_v4_SymbolLibrary:BC847")
 		(at 142.24 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5291,7 +5104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 227.33 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5370,7 +5183,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:LED")
+		(lib_id "Spartanpods_v4_SymbolLibrary:LED")
 		(at 209.55 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5457,7 +5270,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 247.65 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5536,7 +5349,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:Fiducial")
+		(lib_id "Spartanpods_v4_SymbolLibrary:Fiducial")
 		(at 267.97 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5609,7 +5422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 209.55 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5687,7 +5500,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 189.23 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5766,7 +5579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 116.84 76.2 0)
 		(mirror x)
 		(unit 1)
@@ -5845,7 +5658,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:SW_DP3T")
+		(lib_id "Spartanpods_v4_SymbolLibrary:SW_DP3T")
 		(at 92.71 133.35 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -5870,7 +5683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "!MyFootprints:DP3T - JS203011SCQN"
 			(at 76.835 128.905 0)
 			(effects
 				(font
@@ -5940,7 +5753,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:Battery_Cell")
+		(lib_id "Spartanpods_v4_SymbolLibrary:Battery_Cell")
 		(at 76.2 95.25 0)
 		(mirror y)
 		(unit 1)
@@ -6057,7 +5870,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:LED")
+		(lib_id "Spartanpods_v4_SymbolLibrary:LED")
 		(at 247.65 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6145,7 +5958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:JD3_Diode")
+		(lib_id "Spartanpods_v4_SymbolLibrary:JD3_Diode")
 		(at 241.3 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6218,7 +6031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:R_US")
+		(lib_id "Spartanpods_v4_SymbolLibrary:R_US")
 		(at 237.49 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6297,7 +6110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:Q_Photo_NPN")
+		(lib_id "Spartanpods_v4_SymbolLibrary:Q_Photo_NPN")
 		(at 121.92 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6376,7 +6189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Spartanpods_SymbolLibrary:PWR_FLAG")
+		(lib_id "Spartanpods_v4_SymbolLibrary:PWR_FLAG")
 		(at 76.2 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)

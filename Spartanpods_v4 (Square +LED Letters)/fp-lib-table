@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "SpartanpodsLibrary")(type "KiCad")(uri "${KIPRJMOD}/SpartanpodsLibrary.pretty")(options "")(descr ""))
   (lib (name "Spartanpods_FootprintLibrary")(type "KiCad")(uri "${KIPRJMOD}/Spartanpods_FootprintLibrary.pretty")(options "")(descr ""))
+  (lib (name "SpartanpodsV4_FootprintLibrary")(type "KiCad")(uri "${KIPRJMOD}/SpartanpodsV4_FootprintLibrary.pretty")(options "")(descr ""))
 )

@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
-		(uuid "6eb9cdc9-98a2-45c5-9651-9bf87928d6f3")
+		(uuid "03068798-acc6-4dac-8570-7e35905fd4e4")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "10kΩ"
+	(property "Value" "10KΩ"
 		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "75d5d994-1f1d-4d88-b0b3-6229373cddaa")
+		(uuid "3dbfe274-2445-4f44-b017-6b578f27c13a")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d20278f-88b8-4c42-a5a4-59e336b45f45")
+		(uuid "7bdb01ab-2035-40ad-bc8c-e38d02918fed")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,14 +39,27 @@
 			)
 		)
 	)
-	(property "Description" "Resistor, US symbol"
+	(property "Description" "RES 10K OHM 5% 1/4W 0603"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "06528ed2-e45f-4cf4-bff3-bb6060e0562c")
+		(uuid "c75de2b2-dcf7-440b-b8d8-6f7fc0f4289b")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "ESR03EZPJ103"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c73c648-c1a1-4050-94cc-41d4204bce76")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -60,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f566e07e-052e-4cb1-ac5a-3fdd8927a4ad")
+		(uuid "d90a3db0-2c5a-4c24-8258-40e277732114")
 	)
 	(fp_line
 		(start -0.146267 0.51)
@@ -70,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ea3661e3-75e9-4c46-9a6b-223ab3e239de")
+		(uuid "f43ddc87-cf1a-4b2e-a531-361b3a3869d8")
 	)
 	(fp_line
 		(start -1.65 -0.73)
@@ -80,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "476678f9-beb3-4d28-bc67-de6116a021eb")
+		(uuid "094f2f9b-78e3-4b36-b586-8be38b816f25")
 	)
 	(fp_line
 		(start -1.65 0.73)
@@ -90,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6d7ee57e-cfb3-4827-b6fe-6f1442fa500f")
+		(uuid "8828864d-3a4c-4bce-8e58-c5b01946bece")
 	)
 	(fp_line
 		(start 1.65 -0.73)
@@ -100,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "598ee1e0-6a95-4664-bdee-c627c49a46f5")
+		(uuid "aa5c17d0-deb1-4ee8-8c09-df8c01c1ddea")
 	)
 	(fp_line
 		(start 1.65 0.73)
@@ -110,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c3754234-78e7-4c2e-b768-ce3e52180be5")
+		(uuid "a29e1d64-c51a-4494-befc-214eb6eaf217")
 	)
 	(fp_line
 		(start -0.8 -0.4)
@@ -120,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "77ad355b-c467-4709-9886-04a96c431168")
+		(uuid "7be9babb-ef3f-45e0-a0e8-438c296c6795")
 	)
 	(fp_line
 		(start -0.8 0.4)
@@ -130,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5aad88e3-621b-4993-a8a7-c399f1d10423")
+		(uuid "adc16504-7220-40fa-861f-ebf426214470")
 	)
 	(fp_line
 		(start 0.8 -0.4)
@@ -140,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fbb04b05-1bfb-4841-81e9-97c9eb7267b4")
+		(uuid "99f6fe21-e1c8-4ce1-b662-7e31915c1b53")
 	)
 	(fp_line
 		(start 0.8 0.4)
@@ -150,12 +163,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "458937f0-f696-4d83-8d5b-9ffa0784f9a7")
+		(uuid "c421a4fe-4320-4d0f-848f-c622fa297a4e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "e73383cd-ee99-40f1-809a-284f611d234b")
+		(uuid "f5fbc0b3-479c-449b-a60d-6dbc26f6feba")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -168,14 +181,14 @@
 		(size 1.075 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "d0fdd551-f653-4788-8d82-ac7bdd8ce787")
+		(uuid "7e72e62b-cd28-43b7-a427-64fb8689b16e")
 	)
 	(pad "2" smd roundrect
 		(at 0.8625 0)
 		(size 1.075 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "4ba47382-8f0f-45eb-ac08-7558d2b74eec")
+		(uuid "fed50a8b-276f-42a5-ac1c-cdf5c3f30f35")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"

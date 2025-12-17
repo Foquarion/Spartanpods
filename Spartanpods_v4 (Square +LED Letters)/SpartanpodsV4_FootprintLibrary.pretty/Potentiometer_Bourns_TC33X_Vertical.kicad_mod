@@ -6,9 +6,9 @@
 	(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 	(tags "Potentiometer Bourns TC33X Vertical")
 	(property "Reference" "REF**"
-		(at 0 -2.5 180)
+		(at 0 -2.5 0)
 		(layer "F.SilkS")
-		(uuid "1d88788e-d2b3-445f-92e5-a03fcd3f9cd7")
+		(uuid "1ce21a73-1aba-4886-afed-0094a7dd07d1")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "50kΩ"
-		(at 0 2.5 180)
+	(property "Value" "50KΩ"
+		(at 0 2.5 0)
 		(layer "F.Fab")
-		(uuid "f5e5b91a-7727-4453-9136-d207889b728b")
+		(uuid "bf850c3e-35be-4fe7-92b0-cc50acb72e3c")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f41dca36-204e-47f2-b59b-e0a3501243a6")
+		(uuid "a87e1f77-134d-48fa-8eb2-919b9cfaee10")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,15 +40,28 @@
 			)
 		)
 	)
-	(property "Description" "Potentiometer, US symbol"
+	(property "Description" "TRIMMER 50K OHM 0.15W J LEAD TOP"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "17d2ed6d-9116-4c85-9de9-26d4ef17e03e")
+		(uuid "9893ac24-116b-425f-9bf8-9ec2629a03b3")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "TC33X-2-503E"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8cba961-01c5-4cf5-a545-eb39873ae83f")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -62,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "afcbb704-75f9-4b4b-b0f0-b2647113548b")
+		(uuid "2f5f6654-cb46-4897-9eb7-83786c80ab58")
 	)
 	(fp_line
 		(start -2.1 -0.2)
@@ -72,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "57caf09e-5061-44a1-9965-d5e46bb5e133")
+		(uuid "1eec7249-ec94-4978-8555-5e4c5519a18f")
 	)
 	(fp_line
 		(start -1.9 -1.8)
@@ -82,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e167f590-134c-470b-8bc5-95997dc4c6de")
+		(uuid "67710e3b-2772-487e-a82e-7fbdb9e0f26a")
 	)
 	(fp_line
 		(start -1 -1.6)
@@ -92,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9e9b5e2a-01a2-41ee-a55d-0b1b06d647af")
+		(uuid "e216ce88-561d-4ac0-8350-4c21435f46fc")
 	)
 	(fp_line
 		(start -1 1.6)
@@ -102,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "372a275e-cc6b-4806-8081-94dcfb258a4d")
+		(uuid "b5c0d5e6-2a40-429f-b472-9200bcf1508a")
 	)
 	(fp_line
 		(start 1.9 -1.6)
@@ -112,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "12e5a014-84f7-4e88-aac6-807113b94382")
+		(uuid "a17c2dd4-c470-45a6-b783-3495ef88dde1")
 	)
 	(fp_line
 		(start 1.9 1.6)
@@ -122,7 +135,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6d827958-1bbc-4e4b-bc80-877266bac322")
+		(uuid "3eb796f7-a75f-491a-a1cd-bfc7b8db4726")
 	)
 	(fp_circle
 		(center 0 0)
@@ -133,7 +146,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "e623e763-ff03-4e4c-9271-dd5afc7b149e")
+		(uuid "efd7d2ca-b24c-4fec-8298-58a3773bbe42")
 	)
 	(fp_line
 		(start -2.65 -1.85)
@@ -143,7 +156,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1edecd46-ed30-4c40-9c7b-fcfa805dc4c2")
+		(uuid "4aed51c0-4cfa-4c9e-9cbb-d7ae1fdafc53")
 	)
 	(fp_line
 		(start -2.65 1.85)
@@ -153,7 +166,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "10de6ada-0dcc-4e5d-8291-d759565e88e2")
+		(uuid "4d671b70-8cca-4518-a730-5ac396394433")
 	)
 	(fp_line
 		(start 2.45 -1.85)
@@ -163,7 +176,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8a32d752-4ea5-49a1-a6d1-8fa8a5cc355f")
+		(uuid "9e1f6c02-be5c-4752-9613-d5478d5c1be8")
 	)
 	(fp_line
 		(start 2.45 1.85)
@@ -173,7 +186,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "cc724e45-b5e0-4806-b393-d23892016e30")
+		(uuid "f3d5f081-0bbe-4d06-a7aa-eabbb7587fc4")
 	)
 	(fp_line
 		(start -2 -0.75)
@@ -183,7 +196,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0e1735a2-7e76-4322-acdc-687fa6c6219b")
+		(uuid "91829446-d211-4488-9edc-c917a6911f8e")
 	)
 	(fp_line
 		(start -2 1.5)
@@ -193,7 +206,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "72045ebf-4b3e-4238-8a95-946b2abec09d")
+		(uuid "ee205180-1814-456d-9c37-7b3b3498837c")
 	)
 	(fp_line
 		(start -1.25 -1.5)
@@ -203,7 +216,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "04d2ac9e-c2a5-4406-8a58-bd18dfd32a1c")
+		(uuid "cc2fb106-75b3-4514-bae4-b026500e93bd")
 	)
 	(fp_line
 		(start 1.8 -1.5)
@@ -213,7 +226,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9aa01a54-c43e-40f3-9e2b-d888b5149622")
+		(uuid "28df16f0-6f76-495c-8129-1ed09d65a026")
 	)
 	(fp_line
 		(start 1.8 1.5)
@@ -223,7 +236,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "66f00b12-b822-452d-8eea-c7a6e073a59e")
+		(uuid "33982464-2be7-4bd2-be5c-ab74513162e9")
 	)
 	(fp_circle
 		(center 0 0)
@@ -234,12 +247,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "3f253486-2ecb-4fb9-a374-61f6f5c087ae")
+		(uuid "aa48f6c1-ca01-4dc6-82c0-8f3f078de507")
 	)
 	(fp_text user "Wiper may be\nanywhere within\ncircle shown"
-		(at -0.15 -0.8 180)
+		(at -0.15 -0.8 0)
 		(layer "Cmts.User")
-		(uuid "f89179ab-1558-4dd1-ba06-4ef0c82be8e5")
+		(uuid "c8e872f4-2499-4ec1-8b8e-4467ae40b572")
 		(effects
 			(font
 				(size 0.15 0.15)
@@ -248,9 +261,9 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "4c0b4990-8fc9-41a3-8e6b-7dace8859e8c")
+		(uuid "b0bc8c64-f892-497a-b2eb-785af255ec6a")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -262,19 +275,19 @@
 		(at -1.8 -1)
 		(size 1.2 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7ea3cc6f-f32e-468d-b568-a57633c8c49e")
+		(uuid "9230244c-5814-4a68-9910-3cfa5a9b672f")
 	)
 	(pad "2" smd rect
 		(at 1.45 0)
 		(size 1.5 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c91e17b7-49f2-46b1-8aaa-753a3b946215")
+		(uuid "d8b83bea-4452-4855-a3bf-13a0c1805f70")
 	)
 	(pad "3" smd rect
 		(at -1.8 1)
 		(size 1.2 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ab489ae7-02d0-45a0-a446-92e11efae17a")
+		(uuid "0515de7e-e154-4254-96cf-e1bd37f50a92")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
